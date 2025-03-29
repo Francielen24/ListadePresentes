@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importando o CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="control.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3"> 
+    <div class="header-panel">
+        <h1>Lista de Sugestão de Presentes Chá de Casa Nova</h1>
+        <h3>Lucas e Francielen</h3>
+    </div>
+    </div>
+    
+    <div class="Container">
+        <div class="row"><!-- <div class="grid" id="giftList"> -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">    
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/liquidificador_svtwr5.jpg" alt="Teste">
+                    <p>Liquidificador Philco PH900 3L 12 Velocidades</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192877/fog%C3%A3o_vhcbok.jpg" alt="Teste">
+                    <p>Cooktop 5 Bocas Fischer Fit Line Mesa de Vidro com Acendimento Superautomático Preto - Bivolt</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/ferro_de_passar_vpxluz.jpg" alt="Teste">
+                    <p>Ferro a Vapor Electrolux SIE70 Easyline</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743252626/cafeteira_x8e3ml.jpg" alt="Teste">
+                    <p>Cafeteira Britânia 15TEMP 15 Cafezinhos Inox - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192877/airfry_vrczr6.jpg" alt="Teste">
+                    <p>Fritadeira Elétrica Mondial New Pratic AF31 3,5L 1.500W Preta - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192877/forno_hu3z4l.jpg" alt="Teste">
+                    <p>Forno Elétrico Mueller Sonetto 44L 1.800W Branco - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192883/ventilador_wvm6qc.jpg" alt="Teste">
+                    <p>Ventilador de Coluna Mondial VTX40C 40cm 140W 8 Pás Preto - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192877/assadeiras_wjnh7e.jpg" alt="Teste">
+                    <p>Jogo de Assadeiras Tramontina Brasil Starflon Max em Alumínio 3 Peças</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/j_panelas_brrzxw.jpg" alt="Teste">
+                    <p>Jogo de Panelas Brinox Ceramic Life Easy em Alumínio com Revestimento Cerâmico 5 Peças - Preto</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/faqueiro_oyn9uh.jpg" alt="Teste">
+                    <p>Jogo de Facas Tramontina Plenus em Aço Inox com Cabos de Polipropileno 6 Peças - Preto</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/j_sobremesa_dz7e59.jpg" alt="Teste">
+                    <p>Jogo para Sobremesa Rojemac Wolff Geneva em Vidro - 7 Peças</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/tanquinho_qgl1vp.jpg" alt="Teste">
+                    <p>Tanquinho Mueller Family Lite 10Kg Preto - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/microondas_rfuk9f.jpg" alt="Teste">
+                    <p>Micro-ondas Brastemp BMS46AR 32L 1.400W Espelhado Cinza - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/churrasqueira_unu6fr.jpg" alt="Teste">
+                    <p>Churrasqueira Elétrica Fischer Grill - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/espremedor_f_slsc0q.jpg" alt="Teste">
+                    <p>Espremedor de Frutas Mondial Premium Turbo E10 250W Preto - Bivolt</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192883/televisao_vg7lgj.jpg" alt="Teste">
+                    <p>Smart TV LED TCL 65" 65P755 4K UHD Google TV Dolby Vision Wi-Fi Comando de Voz Bluetooth 3 HDMI 1 USB</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/j_copo2_rekegl.png" alt="Teste">
+                    <p>Jogo 6 Copos Nadir Brisa 300ml Vidro</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192878/j_pratos_p5el1j.jpg" alt="Teste">
+                    <p>Porcelana Schmidt, Estojo com 6 Pratos Rasos em Porcelana - Branca</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192877/geladeira_vmufhk.jpg" alt="Teste">
+                    <p>Geladeira Consul Duplex CRM56FB Frost Free 451L Painel Eletrônico Branca - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192879/j_copo_avzg14.png" alt="Teste">
+                    <p>Jogo de Copos Long Drink Dubai Nadir 500ml com 6 peças</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/j_talher_okgl27.png" alt="Teste">
+                    <p>Jogo de Talheres Tramontina Ipanema Faqueiro 24 Pc Inox</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192879/j_talher_inox_e4rrsx.png" alt="Teste">
+                    <p>Jogo De Talheres Tramontina inox Colher Faca Garfo 24 Peças Inox</p>
+                    <button onclick="markAsBought(this)">Escolhido</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192879/j_ta%C3%A7a_gwz9x8.png" alt="Teste">
+                    <p>Jogo de 6 Taças Rojemac Lyor Diamond em Vidro para Água 360ml</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/lixeira_tbxzst.png" alt="Teste">
+                    <p>Kit de Lixeiras com Pedal Tramontina Brasil em Aço Inox</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192879/j_xicara_pypwzh.jpg" alt="Teste">
+                    <p>Conjunto C/ 6 Xícaras De Chá C/ 6 Pires Madeleine Branco 161 ml</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192880/lavadora_aywijg.jpg" alt="Teste">
+                    <p>Lavadora Brastemp BWK13 13Kg com Ciclo Tira Manchas Advanced Branca - 220V</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743252626/guarda_roupas_em069y.jpg" alt="Teste">
+                    <p>Guarda-Roupa Europa Athenas</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743252626/panela_de_pressao_qpc6xj.jpg" alt="Teste">
+                    <p>Panela de Pressão Brinox Ceramic Life Super com Revestimento Cerâmico Fundo de Indução 5,4L - Preta</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="item">
+                    <img src="https://res.cloudinary.com/drsqpoyau/image/upload/v1743192877/cesto_de_roupa_bbjrtw.png" alt="Teste">
+                    <p>CESTO DE ROUPAS GRID COM TAMPA 49 L</p>
+                    <button onclick="markAsBought(this)">Escolher</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-wrapper">
+    <div class="container-fluid">
+        <div class="header-panel2 text-center">
+            <h2>Informações Adicionais</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4">
+                    <div class="info-box p-4 border rounded shadow-sm text-center">
+                        <p>Qualquer dúvida entre em contato conosco.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="info-box p-4 border rounded shadow-sm text-center">
+                        <p>Os presentes podem ser entregues antes, no dia ou depois da confraternização.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="info-box p-4 border rounded shadow-sm text-center">
+                        <p>Atenção: caso não se identifique com nenhum item da lista, pode dar algo de sua escolha ou até mesmo algum valor via Pix ((63) 98404-6254).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Modal -->
+
+            
+
+</body>
+</html>
